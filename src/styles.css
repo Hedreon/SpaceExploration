@@ -22,10 +22,6 @@ section {
     align-items: center;
 }
 
-h1 {
-    color: rgb(225, 225, 225);
-}
-
 /* .one {
     position: absolute;
     top: 50%;
@@ -613,4 +609,12 @@ h1 {
     to {
         transform: translateY(-1000px);
     }
+}
+
+.sectionTitle {
+    color: #ffffff;
+}
+
+.sectionText {
+    color: rgb(200, 200, 200);
 }
