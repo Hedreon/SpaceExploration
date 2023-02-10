@@ -1,5 +1,5 @@
 // CONFIGURABLE SETTINGS
-const numberOfStars = 1500;
+const numberOfStars = 1000;
 const fieldClass = ".starfield";
 
 // DON'T MODIFY BELOW
