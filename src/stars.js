@@ -1,5 +1,5 @@
 // CONFIGURABLE SETTINGS
-const numberOfStars = 2000;
+const numberOfStars = 1500;
 const fieldClass = ".starfield";
 
 // DON'T MODIFY BELOW
@@ -9,6 +9,6 @@ for (let i = 0; i < numberOfStars; i++) {
     const newStar = document.createElement("div");
     newStar.classList.add("star");
     newStar.style.top = `${Math.floor(Math.random() * 500)}vh`;
-    newStar.style.left = `${Math.floor(Math.random() * 100)}vw`;
+    newStar.style.left = `${Math.floor(Math.random() * 95)}vw`;
     backgroundClass.appendChild(newStar);
 }
