@@ -10,6 +10,6 @@ for (let i = 0; i < numberOfStars; i++) {
     const newStar = document.createElement("div");
     newStar.classList.add("star");
     newStar.style.top = `${Math.floor(Math.random() * pageHeight)}vh`;
-    newStar.style.left = `${Math.floor(Math.random() * pageHeight)}vw`;
+    newStar.style.left = `${Math.floor(Math.random() * 100)}vw`;
     backgroundClass.appendChild(newStar);
 }
