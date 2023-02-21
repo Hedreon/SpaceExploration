@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     transition: 0.25s;
+    break-after: always;
+    break-before: always;
 }
 
 *:hover {
