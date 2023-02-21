@@ -18,11 +18,12 @@ body {
 
 .starfield {
     background-color: #000000;
-    height: 500vh;
-    width: 95vw;
+    height: 600vh;
+    width: 98vw;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .star {
@@ -70,4 +71,9 @@ section {
 .sectionLink:hover {
     text-decoration: underline;
     color: rgb(225, 225, 225);
+}
+
+.embed {
+    z-index: 100;
+    border-radius: 15px;
 }
