@@ -1,31 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    transition: 0.25s;
-    break-after: always;
-    break-before: always;
-}
-
-*:hover {
-    transition: 0.25s;
-}
-
 body {
-    background: #000000; /* Just in case! */
+    margin: 0;
+    background: #000000;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainSlide {
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide {
+    height: 100vh;
+    width: 75vw;
+    box-sizing: border-box;
+}
+
+.slide p {
+    margin: 0;
 }
 
 .starfield {
-    background-color: #000000;
     height: 600vh;
     width: 98vw;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
 }
 
 .star {
@@ -41,41 +50,26 @@ body {
     margin: 0 auto;
 }
 
-.container {
-    scroll-snap-type: y mandatory;
-}
-
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-}
-
-.sectionTitle {
+.slideTitle {
     color: #ffffff;
     font-size: x-large;
     font-weight: bold;
 }
 
-.sectionText {
+.slideText {
     color: rgb(200, 200, 200);
     font-size: large;
 }
 
-.sectionLink {
+.slideLink {
     color: rgb(175, 175, 175);
     font-size: large;
     text-decoration: none;
+    transition: 0.2s;
 }
 
-.sectionLink:hover {
+.slideLink:hover {
     text-decoration: underline;
     color: rgb(225, 225, 225);
-}
-
-.embed {
-    z-index: 100;
-    border-radius: 15px;
+    transition: 0.1s;
 }
